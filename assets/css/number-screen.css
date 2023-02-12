@@ -1,0 +1,26 @@
+.number-screen {
+  background-color: var(--accent-color);
+  color: var(--light-color);
+}
+
+.center {
+  justify-content: center;
+}
+
+.flex.center {
+  margin-bottom: 2rem;
+}
+
+.number-image {
+  margin-right: 1rem;
+}
+
+.number-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.num {
+  font-size: 1.5rem;
+  font-weight: 500;
+}

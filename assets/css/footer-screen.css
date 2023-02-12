@@ -1,0 +1,61 @@
+.footer-screen {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: var(--accent-color);
+  color: var(--light-color);
+  justify-content: space-between;
+}
+
+.developer-container {
+  flex-direction: column;
+  text-align: center;
+}
+
+.developer-name {
+  width: 90%;
+  font-size: 21px;
+  margin-bottom: 1rem;
+}
+
+.developer-copyright {
+  width: 90%;
+  font-size: 13px;
+}
+
+.vk-logo-container {
+  justify-content: center;
+  margin-top: 20px; 
+}
+
+.center {
+  justify-content: center;
+}
+
+.flex.center {
+  margin-bottom: 2rem;
+}
+
+.logo-image + .logo-image {
+  margin-left: 1rem;
+}
+
+.number-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.num {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 576px) {
+  .developer-container {
+    text-align: left;
+  }
+  
+  .vk-logo-container {
+    justify-content: right;
+    margin-top: 0px; 
+  }
+}
